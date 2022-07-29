@@ -1,0 +1,97 @@
+
+.encabezado{ 
+    
+    padding: 1em;
+    position:relative;
+    background: orange;
+       
+    
+}
+
+.titulo{
+    font-style:oblique;
+    font-size:larger;
+    font-weight:bolder;
+    padding: 2em 2em;
+    text-transform:uppercase;
+}
+
+.caja_de_navegacion{
+    
+    position:absolute;
+    right:4em;
+    top:5em;
+
+}
+nav li{
+    display:inline;
+    border:3px solid;
+    padding:3px 10px;
+    background-color:orangered;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-transform:uppercase;
+    
+    
+}
+
+nav li:hover{
+    background-color: yellow ;
+    transition: 1s;
+
+}
+
+.segundo_titulo{
+    width: 800px;
+    margin: 0 auto;
+    padding: 2em 0 1em 3em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.tercer_titulo{
+    font-size: 2em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.descripcion{
+    width:300px;
+    height: 90px;
+    
+}
+
+.producto{
+    width:300px;
+    height:400px;
+    margin:0 auto;
+}
+
+div img{
+    width: 200px;
+}
+
+
+footer{
+    height:300px;
+    background: #000000;
+    position: relative;
+}
+
+.fenix{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+    position: absolute;
+}
+
+
+
+
+
+
